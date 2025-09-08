@@ -1,4 +1,4 @@
-FROM python:3.8
+FROM python:3.9.23
 ENV PYTHONUNBUFFERED 1
 RUN mkdir /system_rt_mgt
 WORKDIR /system_rt_mgt
